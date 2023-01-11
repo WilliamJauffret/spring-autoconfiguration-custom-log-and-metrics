@@ -29,7 +29,7 @@ public class CustomWebClientCustomizer implements WebClientCustomizer {
         return exchangeFunction.exchange(clientRequest)
                 .onErrorMap(throwable -> {
                     if (log.isDebugEnabled()) {
-                        log.debug("ERROR in request >> {} {} {} ", clientRequest.logPrefix(), clientRequest.method(), clientRequest.url(), throwable);
+                        log.debug("ERROR in request >> {} {} {} ", clientRequest.logPrefix(), clientRequest.method(), clientRequest.url(), throwable);
                         clientRequest.headers().forEach((name, values) -> log.debug(">> {} {}: {}", clientRequest.logPrefix(), name, values));
                     } else {
                         log.error("ERROR in request >> {} {} {} cause: {}", clientRequest.logPrefix(), clientRequest.method(), clientRequest.url(), throwable.toString());

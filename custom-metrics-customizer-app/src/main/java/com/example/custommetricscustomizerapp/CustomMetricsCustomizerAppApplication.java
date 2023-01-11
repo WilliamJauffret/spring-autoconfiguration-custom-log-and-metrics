@@ -3,7 +3,7 @@ package com.example.custommetricscustomizerapp;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@SpringBootApplication(scanBasePackages = "com.example")
+@SpringBootApplication
 public class CustomMetricsCustomizerAppApplication {
 
     public static void main(String[] args) {

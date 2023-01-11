@@ -8,9 +8,9 @@
   <url>http://maven.apache.org</url>
   <packaging>pom</packaging>
 
-  <!-- always enabled modules -->
   <modules>
     <module>custom-metrics-customizer</module>
     <module>custom-metrics-customizer-app</module>
+    <module>custom-metrics-customizer-prometheus-server</module>
   </modules>
 </project>

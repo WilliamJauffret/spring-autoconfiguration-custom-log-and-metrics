@@ -1,0 +1,2 @@
+com.example.autoconfigure.client.CustomWebClientAutoConfiguration
+com.example.autoconfigure.metrics.CustomWebClientExchangeTagProvider
