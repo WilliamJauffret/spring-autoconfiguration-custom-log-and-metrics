@@ -7,4 +7,6 @@ import org.springframework.stereotype.Component;
 public class AbstractClientProperties {
     private String clientName;
 
+    private String apiKey;
+
 }

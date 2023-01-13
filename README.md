@@ -27,6 +27,8 @@ Also, I decided to add custom metrics on my webClient to see the clientName.
 
 On each aspect of autoconfiguration library, you have to create a `@Configuration` annotated class to expose your desired beans. 
 
+Important : Since spring 3, the spring.factories file is no more used, and you will have to use `src/main/resources/org.springframework.boot.autoconfigure.AutoConfiguration.imports file`. 
+
 # custom-metrics-customizer-app 
 
 This module is the application using the library above.h
